@@ -30,3 +30,27 @@ int main() {
 // 关键字 - 在定义变量或常量时，不要使用关键字
 
 
+// 数据类型 - 整型
+int main() {
+    int a = 10; // 4字节   -32768 - 32768
+    short b = 10; // 2字节    -2147483647 - 2147483647
+    long c = 10; // Windows下4字节，Linux下4字节（32位），8字节（64位）
+    long long d = 10; // 8字节
+}
+
+// sizeof关键字
+int main() {
+    cout << sizeof(short) << endl;
+    cout << sizeof(int) << endl;
+    cout << sizeof(long) << endl;
+    cout << sizeof(long long) << endl;
+    cout << sizeof(float) << endl;
+    cout << sizeof(double) << endl;
+    cout << sizeof(long double) << endl;
+    cout << sizeof(char) << endl;
+    cout << sizeof(bool) << endl;
+    cout << sizeof(void*) << endl;
+
+    system("pause");
+    return 0;
+}
