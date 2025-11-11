@@ -14,7 +14,7 @@ This repository serves as a digital notebook for tracking my progress in program
 
 ## 🛠️ Tech Stack
 - **Languages:** C, C++, C#, Python
-- **Tools:** Git, VS Code, PyCharm
+- **Tools:** Git, VS Code, PyCharm, Clion, Jupyter Notebook
 - **Concepts:** Basic knowledge
 
 
@@ -34,7 +34,7 @@ This is a work in progress—expect regular updates as I dive deeper into new sk
 
 Feel free to browse, but keep in mind: these are raw, unpolished materials meant to document growth, not serve as tutorials.  
 
-Happy coding! Mow~ 🐱🚀
+Happy coding! Mew~ 🐱🚀
 
 Keep learning, keep building! 🌱
 
