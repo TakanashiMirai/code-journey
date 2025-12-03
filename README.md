@@ -1,4 +1,4 @@
-# CodeLearningJourney
+# code-journey
 
 This repository is my personal space to track and organize my programming journey. Here, I store:  
 - Code snippets from practice problems (algorithms, data structures, etc.)  
