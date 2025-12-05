@@ -11,6 +11,7 @@ This repository serves as a digital notebook for tracking my progress in program
 - **Practice-Code** solving problems (LeetCode, HackerRank, etc.).
 - **Mini-Projects** exploring new languages, frameworks, or tools.
 - **Cheatsheets** for quick reference on syntax or concepts.
+- **Module** modular learning
 
 ## 🛠️ Tech Stack
 - **Languages:** C, C++, C#, Python
