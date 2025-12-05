@@ -13,9 +13,9 @@ This repository serves as a digital notebook for tracking my progress in program
 - **Cheatsheets** for quick reference on syntax or concepts.
 
 ## 🛠️ Tech Stack
-- **Languages:** C, C++, C#, Python
-- **Tools:** Git, VS Code, PyCharm, Clion, Jupyter Notebook
-- **Concepts:** Basic knowledge
+- **Languages:** C, C++, C#, Python, javascript
+- **Tools:** Git, VS Code, PyCharm, Clion, Jupyter Notebook, HBuilder X, Webstorm
+- **Concepts:** Basic knowledge, Software development
 
 
 ## 🚀 How to Use
