@@ -11,23 +11,23 @@ export default class EntryAbility extends UIAbility {
     // 此处可以直接用let windowWidthVp = windowWidth / display.getDefaultDisplaySync().densityPixels，不必进行try/catch
     try {
       let windowWidthVp = windowWidth / display.getDefaultDisplaySync().densityPixels
+      let newBp: string = ''
+      if (windowWidthVp < 320) {
+       newBp = 'xs'
+      } else if (windowWidthVp < 600) {
+       newBp = 'sm'
+      } else if (windowWidthVp < 840) {
+       newBp = 'md'
+      } else {
+        newBp = 'lg'
+      }
+      if (this.curBp !== newBp) {
+       this.curBp = newBp
+       // 使用状态变量记录当前断点值
+       AppStorage.setOrCreate('currentBreakPoint', this.curBp)
+    }
     } catch (error) {
       console.error('windowWidthVp is break')
-    }
-    let newBp: string = ''
-    if (windowWidthVp < 320) {
-      newBp = 'xs'
-    } else if (windowWidthVp < 600) {
-      newBp = 'sm'
-    } else if (windowWidthVp < 840) {
-      newBp = 'md'
-    } else {
-      newBp = 'lg'
-    }
-    if (this.curBp !== newBp) {
-      this.curBp = newBp
-      // 使用状态变量记录当前断点值
-      AppStorage.setOrCreate('currentBreakPoint', this.curBp)
     }
   }
 }
